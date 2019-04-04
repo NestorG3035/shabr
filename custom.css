@@ -2,28 +2,13 @@ body {
     
 }
 .Home{
-    position:absolute;
-    top:100px;
+    
     font-family: 'Varela Round', sans-serif;
 }
-.Info{
-    position:absolute;
-    top:450px;
-}
-.Testimonials{
-    position:absolute;
-    top:1250px;
-}
-.Contact{
-    position: absolute;
-    top:1950px;
-}
 
-[class*="col-"] {
+.info, .testimonials, .contact {
             
-            padding: 70px;
-            padding-left:120px;
-            padding-right:120px;
+            padding: 40px;
             background-color: #eee;
             background-color: rgba(86, 61, 124, .15);
             border: 1px solid #ddd;
