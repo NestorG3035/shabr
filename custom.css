@@ -1,9 +1,8 @@
-body {
-    
-}
 .Home{
-    
     font-family: 'Varela Round', sans-serif;
+}
+h1 {
+    font-size:20vw;
 }
 
 .info, .testimonials {
@@ -13,9 +12,45 @@ body {
             background-color: rgba(86, 61, 124, .15);
             border: 1px solid #ddd;
             border: 1px solid rgba(86, 61, 124, .2);
+
         }
 .contact{
     
     padding:10px;
     border:1px solid;
+}
+
+
+.landing-page {
+    margin:0;
+    padding:0;
+    font-family: 'Shadows Into Light', cursive;
+    color:dodgerblue;
+    user-select: none;
+    /*create parallax effect image*/
+    background-image: url("img/balloon-1.jpg");
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*centers text*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#shabr-fullname {
+    font-family: 'Varela Round', sans-serif;
+    font-size:50px;
+}
+#shabr-slogan {
+    font-family: 'Varela Round', sans-serif;
+    font-size:40px;
+}
+
+@media(max-width:766px) {
+    #shabr-fullname {
+        font-size:35px;
+    }
 }
