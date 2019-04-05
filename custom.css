@@ -40,6 +40,11 @@ h1 {
     font-family: 'Varela Round', sans-serif;
     font-size:40px;
 }
+#info-section {
+    
+    background-color:lightblue;
+    height:70vh;
+}
 
 @media(max-width:766px) {
     #shabr-fullname {
