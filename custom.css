@@ -1,16 +1,17 @@
 .Home{
     font-family: 'Varela Round', sans-serif;
 }
-h1 {
+#shabr-title {
     font-size:20vw;
 }
-
 .contact{
-    
     padding:10px;
     border:1px solid;
+    color:#FB3E13
 }
-
+.info-header {
+    color:#FB3E13;
+}
 
 .landing-page {
     margin:0;
@@ -34,6 +35,8 @@ h1 {
 #shabr-fullname {
     font-family: 'Varela Round', sans-serif;
     font-size:50px;
+    color:#FB3E13
+;
 }
 #shabr-slogan {
     font-family: 'Varela Round', sans-serif;
@@ -45,8 +48,26 @@ h1 {
 .carousel-inner > .item {
    height: 750px;
 }
-@media(max-width:766px) {
+.home-text {
+    color:#FB3E13;
+}
+.info-p {
+    font-size:17px;
+    font-family: Helvetica;
+}
+#info-section {
+    margin:50px 50px;
+}
+
+@media(max-width:768px) {
     #shabr-fullname {
         font-size:35px;
+        text-align: center;
     }
+    #shabr-slogan {
+        font-size:25px;
+        text-align: center;
+    }
+    
 }
+
