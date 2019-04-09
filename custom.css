@@ -59,7 +59,11 @@
     margin:50px 50px;
 }
 #list-group{
-    }
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  margin-top:30px;
+  margin-bottom:30px;
+  }
 
 @media(max-width:768px) {
     #shabr-fullname {
