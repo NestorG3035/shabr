@@ -58,6 +58,8 @@
 #info-section {
     margin:50px 50px;
 }
+#list-group{
+    }
 
 @media(max-width:768px) {
     #shabr-fullname {
